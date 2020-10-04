@@ -1,0 +1,44 @@
+header{
+	background-color: #B3B3B3;
+}
+
+h1{
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-family: "Times New Roman";
+	text-align: center;
+	font-size: 300%;
+	}
+
+h2{
+	color: #1b1b96;
+	font-family: "Times New Roman";
+	font-size: 200%;
+	text-transform: uppercase;
+}
+
+a{
+	color: #000000;
+	font-size:120%;
+	font-family: Arial;
+	background-color: #CDCDCD;
+}
+
+img{
+	display: none;
+}
+
+section{
+	background-color: #666666;
+}
+
+p{
+	color: #000000;
+	font-family: Arial;
+	font-size:120%;
+}
+
+table{
+	font-family: Arial;
+	font-size:120%
+}

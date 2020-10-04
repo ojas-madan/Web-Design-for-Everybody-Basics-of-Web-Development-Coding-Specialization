@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS-Checkbox Example</title>
+	<style>
+		input{
+			border: 1px solide black;
+		}
+		input:focus{
+			background-color: #E6E6E6;
+		}
+		#nick{
+			margin-left:4%;
+			display:none;
+			width:50%;
+		}
+	</style>
+	<script src="js/checkbox.js"></script>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Form Verification</legend>
+			<label for ="fName">First Name:</label>
+			<input type="text" name="fName" id="fName" required><br/>
+			<label for ="lName">Last Name:</label>
+			<input type="text" name="lName" id = "lName" required><br/>
+
+			<label for = "yesNick">Nickname?:</label>
+			<input id="yesNick" name="yesNick" type="checkbox" value="yes" onchange= "nicknameFunction()"/> <br/>
+
+			<div id ="nick">
+				<label for ="nickname">Nickname:</label>
+				<input type="text" name = "nickname" id="nickname"><br/>
+			</div>
+			<input type = "submit" value = "Verify"/>
+		</fieldset>
+</body>
+</html>
